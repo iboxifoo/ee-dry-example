@@ -17,9 +17,9 @@ There are 3 templates:
 There are 4 snippets:
 ---------------------
 
-1. `sn\_channel\_markup.html` (View Snippet for exp:channel:entries output)
-2. `sn\_head.html` (Snippet for `\<head\>`)
-3. `sn\_header.html` (Snippet for `\<header\>`)
-4. `sn\_footer.html` (Snippet for `\<footer\>`)
+1. `sn_channel_markup.html` (View Snippet for exp:channel:entries output)
+2. `sn_head.html` (Snippet for `<head>`)
+3. `sn_header.html` (Snippet for `<header>`)
+4. `sn_footer.html` (Snippet for `<footer>`)
 
 Note: Snippets 2 thru 4 are unnecessary for this particular example, as we only have one "view" template, but are included for clarity.
