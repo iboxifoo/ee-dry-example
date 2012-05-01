@@ -1,5 +1,5 @@
-ee-dry-example
-==============
+ExpressionEngine DRY Example
+============================
 
 Example templates illustrating a DRY/MVC/Partial (name your poison) approach when building an ExpressionEngine site.
 
@@ -10,16 +10,16 @@ These files are provided to give those interested a working but high level conce
 There are 3 templates:
 ----------------------
 
-* index.html (Logic template for homepage)
-* page.html (Logic template for interior page)
-* view.html (View template for all pages)
+1. `index.html` (Logic template for homepage)
+2. `page.html` (Logic template for interior page)
+3. `view.html` (View template for all pages)
 
 There are 4 snippets:
 ---------------------
 
-1. sn\_channel\_markup.html (View Snippet for exp:channel:entries output)
-2. sn\_head.html (Snippet for <head>)
-3. sn\_header.html (Snippet for <header>)
-4. sn\_footer.html (Snippet for <footer>)
+1. `sn\_channel\_markup.html` (View Snippet for exp:channel:entries output)
+2. `sn\_head.html` (Snippet for `\<head\>`)
+3. `sn\_header.html` (Snippet for `\<header\>`)
+4. `sn\_footer.html` (Snippet for `\<footer\>`)
 
 Note: Snippets 2 thru 4 are unnecessary for this particular example, as we only have one "view" template, but are included for clarity.
