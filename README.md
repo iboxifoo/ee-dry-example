@@ -1,28 +1,25 @@
 ee-dry-example
 ==============
 
-Example templates illustrating DRY approach when building ExpressionEngine site.
+Example templates illustrating a DRY/MVC/Partial (name your poison) approach when building an ExpressionEngine site.
+
+For the original article on Template Partials see John D Wells' [Homegrown plugin to create template "partials" for ExpressionEngine](http://johndwells.com/blog/homegrown-plugin-to-create-template-partials-for-expressionengine). The Stash plugin is available from [devot:ee](http://devot-ee.com/add-ons/stash).
+
+These files are provided to give those interested a working but high level conceptual example of achieving both DRY + MVC nirvana in your EE templates. At least that's my interpretation.
 
 There are 3 templates:
+----------------------
 
-index.html
-
-Logic template for homepage
-
-page.html
-
-Logic template for interior page
-
-view.html
-
-View template for all pages
+* index.html (Logic template for homepage)
+* page.html (Logic template for interior page)
+* view.html (View template for all pages)
 
 There are 4 snippets:
+---------------------
 
-sn_channel_markup
+1. sn\_channel\_markup.html (View Snippet for exp:channel:entries output)
+2. sn\_head.html (Snippet for <head>)
+3. sn\_header.html (Snippet for <header>)
+4. sn\_footer.html (Snippet for <footer>)
 
-sn_head
-
-sn_header
-
-sn_footer
+Note: Snippets 2 thru 4 are unnecessary for this particular example, as we only have one "view" template, but are included for clarity.
