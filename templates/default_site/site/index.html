@@ -1,0 +1,24 @@
+{embed=site/view}
+
+{exp:stash:set_value
+	name="head_title"
+	value="Homepage | {site_label}"
+}
+
+{exp:stash:set
+	name="body_content"
+}
+
+{exp:channel:entries
+	channel="your_channel_here"
+	disable="categories|member_data|pagination"
+	dynamic="no"
+	limit="3"
+	status="homepage"
+}
+
+{sn_channel_markup}
+
+{/exp:channel:entries}
+
+{/exp:stash:set}

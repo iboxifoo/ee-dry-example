@@ -1,0 +1,22 @@
+{embed=site/view}
+
+{exp:channel:entries
+	channel="your_channel_here"
+	disable="categories|member_data|pagination"
+	status="not closed"
+}
+
+{exp:stash:set_value
+	name="head_title"
+	value="{title} | {site_label}"
+}
+
+{exp:stash:set
+	name="body_content"
+}
+
+{sn_channel_markup}
+
+{/exp:stash:set}
+
+{/exp:channel:entries}
